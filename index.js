@@ -29,4 +29,5 @@ async function pegaArquivo(caminhoDoArquivo) {
         trataErro(erro);
     }
 }
-pegaArquivo('./arquivos/texto1.md');
+//pegaArquivo('./arquivos/texto1.md');
+ module.exports = pegaArquivo;
